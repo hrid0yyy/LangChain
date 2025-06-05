@@ -15,4 +15,6 @@ python-dotenv
 numpy
 scikit-learn
 
-tf-keras
+
+# Google genai 
+langchain-google-genai
