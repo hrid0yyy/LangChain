@@ -18,3 +18,7 @@ scikit-learn
 
 # Google genai 
 langchain-google-genai
+
+
+# Groq Integration
+langchain-groq
