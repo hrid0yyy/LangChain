@@ -3,6 +3,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from gemini import call_llm 
 
 
+
 def extract(content, keywords):
     """Extract lines containing any of the specified keywords (case-insensitive) from the content."""
     if not content:

@@ -22,3 +22,17 @@ langchain-google-genai
 
 # Groq Integration
 langchain-groq
+
+pypdf
+
+# Vector Stores
+chromadb
+langchain_chroma
+
+
+# Vector Store Utilities
+tf-keras
+
+
+# mistral ai
+langchain-mistralai
