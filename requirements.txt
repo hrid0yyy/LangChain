@@ -36,3 +36,7 @@ tf-keras
 
 # mistral ai
 langchain-mistralai
+
+
+# optional for tools 
+duckduckgo-search

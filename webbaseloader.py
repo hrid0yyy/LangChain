@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 from langchain_community.document_loaders import WebBaseLoader
-from gemini import call_llm 
+from GroqCloud import llama
 
-
+llm = llama()
 
 def extract(content, keywords):
     """Extract lines containing any of the specified keywords (case-insensitive) from the content."""
@@ -26,7 +26,7 @@ docs = loader.load()
 if docs and docs[0].page_content:
     content = extract(docs[0].page_content, keywords=keywords)
     prompt = f"Summarize the following information:\n{content}"
-    response = call_llm(prompt)
+    response = llm.invoke(prompt)
     print(response)
 else:
     print("No content loaded from the URL.")
