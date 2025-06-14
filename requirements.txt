@@ -37,6 +37,16 @@ tf-keras
 # mistral ai
 langchain-mistralai
 
+# anthropic ai
+langchain-anthropic
+
 
 # optional for tools 
 duckduckgo-search
+
+# ai agent development
+langgraph
+langsmith
+
+# For testing and development
+IPython
